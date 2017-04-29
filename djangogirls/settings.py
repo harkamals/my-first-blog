@@ -25,6 +25,7 @@ SECRET_KEY = '0g$_er(!!#cccl&snjrf6edh$zh+)%h+#or4ibs4&bcjko7_z5'
 DEBUG = True
 
 # Application definition
+# 'django_admin_bootstrapped',
 
 INSTALLED_APPS = [
     'django.contrib.admin',
