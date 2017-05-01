@@ -95,4 +95,5 @@ ENV/
 .ropeproject
 
 /db.sqlite3
-.idea/
+/.idea/
+djangogirls/local_settings.py
