@@ -28,6 +28,7 @@ DEBUG = True
 # 'django_admin_bootstrapped',
 
 INSTALLED_APPS = [
+    'django_ses',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -115,3 +116,10 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+EMAIL_BACKEND = 'django_ses.SESBackend'
+AWS_ACCESS_KEY_ID = 'AKIAJZJV6XUGRNDDEUZA'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_SES_REGION_NAME = 'eu-west-1'
+DEFAULT_FROM_EMAIL = 'harkamals@gmail.com'
+AWS_SES_REGION_ENDPOINT = 'email.eu-west-1.amazonaws.com'
