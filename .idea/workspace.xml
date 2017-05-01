@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="679a9e51-e7d3-4942-987d-fb89b712a86c" name="Default" comment="Initial Commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/djangogirls/local_settings.py" />
+    <list default="true" id="679a9e51-e7d3-4942-987d-fb89b712a86c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
     </list>
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/djangogirls/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2250">
-              <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,7 +99,6 @@
       <list>
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/blog/templates/post_list.html" />
         <option value="$PROJECT_DIR$/djangogirls/urls.py" />
         <option value="$PROJECT_DIR$/blog/static/css/blog.css" />
@@ -110,6 +109,7 @@
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/djangogirls/settings.py" />
         <option value="$PROJECT_DIR$/djangogirls/local_settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -539,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493618042313</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial Commit">
+      <created>1493618273661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493618273661</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,13 +634,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -749,7 +749,15 @@
     <entry file="file://$PROJECT_DIR$/djangogirls/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2250">
-          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
