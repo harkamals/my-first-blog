@@ -95,4 +95,8 @@ ENV/
 .ropeproject
 
 /db.sqlite3
-/djangogirls/local_settings.py
+
+.idea/dataSources/c57969bd-a150-4f42-9119-9159858d7327/_metadata_/metadata.values.at
+.idea/dataSources/c57969bd-a150-4f42-9119-9159858d7327/_src_/
+.idea/dataSources/c57969bd-a150-4f42-9119-9159858d7327/_staging_/
+.idea/dataSources/c57969bd-a150-4f42-9119-9159858d7327/storage.xml
