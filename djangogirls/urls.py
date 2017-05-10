@@ -22,3 +22,5 @@ urlpatterns = [
     url(r'', include('blog.urls')),
     url(r'^admin/django-ses/', include('django_ses.urls')),
 ]
+
+

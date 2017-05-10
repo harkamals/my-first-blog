@@ -2,7 +2,15 @@ from django.db import models
 from django.utils import timezone
 
 
-class Post(models.Model):
+class TimeStampModel(models.Model):
+    created = models.DateTimeField(auto_now_add=True)
+    modified = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        abstract = True
+
+
+class Post(TimeStampModel):
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
     text = models.TextField()
@@ -15,6 +23,3 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-
-
-
