@@ -48,6 +48,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+LOGIN_URL = '/login'
+LOGIN_REDIRECT_URL = '/'
+
 ROOT_URLCONF = 'djangogirls.urls'
 
 TEMPLATES = [

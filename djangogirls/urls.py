@@ -16,11 +16,16 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from django.contrib.auth import views as auth_views
+from django.contrib.auth.views import LoginView
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('blog.urls')),
     url(r'^admin/django-ses/', include('django_ses.urls')),
+    url(r'^login/$', LoginView.as_view(redirect_authenticated_user=True), name='login'),
+    url(r'^logout/$', auth_views.logout, {'template_name': 'registration/logout.html'}, name='logout'),
 ]
 
 
