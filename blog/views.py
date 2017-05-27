@@ -8,13 +8,15 @@ from .forms import PostForm
 
 @login_required
 def post_list(request):
-    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
+    # posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
+    posts = Post.objects.filter(author=request.user)
     return render(request, 'blog/post_list.html', {'posts': posts})
 
 
 @login_required
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
+    # print(request.user)
     return render(request, 'blog/post_detail.html', {'post': post})
 
 
